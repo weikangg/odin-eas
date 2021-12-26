@@ -1,0 +1,77 @@
+body,html{
+    height: 100%;
+    background-image:url("../img/images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+}
+
+.outer-box{
+    background-color: red;
+    background-size: 75% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid black;
+    margin: auto;
+    height: 650px;
+    width: 650px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(var(--numRows),1fr);
+    grid-template-columns: repeat(var(--numCols),1fr);
+    border: 8px solid black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 550px;
+    width: 550px;
+}
+
+.cell{
+    border: 1px solid black;
+    margin: 0;
+    padding: 3px;
+    background-color: rgb(247, 218, 163);
+    display:flex;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(247, 218, 163);
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* :root{
+    --numCols: 1;
+    --numRows: 1;
+} */
