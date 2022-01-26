@@ -2,7 +2,7 @@
 
 Odin - EAS
 
-- Flex Dom Manipulation Skills (Which i currently have none)
+- Flex Dom Manipulation Skills 
 - Learnt how to GOOGLE for methods and functions which I'm unfamiliar with.
 Some examples include:
     - .matches() method
